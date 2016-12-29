@@ -1,1 +1,1 @@
-# java-challenges
+# java-challenges [![Build Status](https://travis-ci.org/Jyothesh/java-challenges.svg?branch=master)](https://travis-ci.org/Jyothesh/java-challenges)
