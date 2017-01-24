@@ -20,6 +20,10 @@ public class BicycleDemo {
         bike2.speedUp(10);
         bike2.changeGear(3);
         bike2.printStates();
+        
+        MountainBike mbike = new MountainBike(bike1, 10);
+        mbike.printMountainBike();
+        
 	}
 
 }

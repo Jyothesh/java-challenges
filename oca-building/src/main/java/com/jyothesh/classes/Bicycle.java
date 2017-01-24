@@ -6,10 +6,32 @@ package com.jyothesh.classes;
  */
 public class Bicycle {
 
-	int cadence = 0;
-	int gear = 0;
-	int speed = 0;
+	private int cadence = 0;
+	private int gear = 0;
+	private int speed = 0;
 	
+	public Bicycle() {
+		
+	}
+	
+	public int getCadence() {
+		return cadence;
+	}
+
+	public int getGear() {
+		return gear;
+	}
+	
+	public int getSpeed() {
+		return speed;
+	}
+
+	public Bicycle(int cadence, int gear, int speed) {
+		this.cadence = cadence;
+		this.gear = gear;
+		this.speed = speed;
+	}
+
 	void changeCadence(int cadence) {
 		this.cadence = cadence;
 	}
